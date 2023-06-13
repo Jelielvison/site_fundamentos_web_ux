@@ -1,0 +1,80 @@
+body{
+    background-color: #F2E8CD;
+
+}
+
+#logo{
+    width: 180px;
+    height: 174.86px;
+    left: 204px;
+    top: 6px;
+
+    background: url(343.jpg);
+    border-radius: 87.4286px;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#campoBusca{
+    display: flex;
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:268px;
+    height:32px;
+}
+  
+#busca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+  
+#btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+}
+
+#todasReceitas{
+    display: flex;
+    flex-direction: column;
+    width: 234;
+    height: 1062;
+    margin: 5%;
+}
+
+#receita{
+    display: flex;
+    justify-content: baseline;
+    padding: 5px;
+    margin: 5px;
+}
+
+#receitaInvert{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row-reverse;
+    padding: 5px;
+    margin: 5px;
+}
+
+#comida{
+    padding: 10px;
+    margin: 10px;
+    width: 230px;
+    height: 230px;
+}

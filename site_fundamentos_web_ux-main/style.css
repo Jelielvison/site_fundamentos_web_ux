@@ -1,0 +1,89 @@
+body{
+    background-color: #DEBBA6;
+
+}
+
+#logo{
+    width: 180px;
+    height: 174.86px;
+    left: 500px;
+    top: 6px;
+
+    background: url(343.jpg);
+    border-radius: 87.4286px;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #902928;
+}
+
+
+#todasReceitas{
+    display: flex;
+    flex-direction: column;
+    width: 234;
+    height: 1062;
+    margin: 5%;
+}
+
+#receita{
+    display: flex;
+    justify-content: baseline;
+    padding: 5px;
+    margin: 25px;
+    background-color: #F2E8CD;
+    border-radius: 50px;
+}
+
+#receitaInvert{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row-reverse;
+    padding: 5px;
+    margin: 25px;
+    background-color: #902928;
+    border-radius: 50px;
+}
+
+#comida{
+    border-radius: 3rem;
+    padding: 10px;
+    margin: 10px;
+    width: 230px;
+    height: 230px;
+
+}
+
+#primeiravista{
+    margin-right: 300px;
+    font-family: 'Snell Roundhand', sans-serif; 
+    font-size: 90px;
+}
+
+#chefs{
+    display: flex;
+    margin-right: 300px;
+    justify-content: space-around;
+    color: #8078D8;
+
+}
+
+#prato_invert{
+    display: flex;
+    justify-content: end;
+    margin: 2rem 3rem 2rem 3rem;
+    font-size: 50px;
+}
+
+#prato{
+    margin: 2rem 3rem 2rem 3rem;
+    font-size: 50px;
+}
+
+p{
+    margin: 1rem;
+    font-size: 20px;
+}
